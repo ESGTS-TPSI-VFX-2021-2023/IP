@@ -1,0 +1,46 @@
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		MenuInicial();
+		
+	}
+	
+	public static void MenuInicial() {
+		
+		Scanner sc = new Scanner(System.in);
+		int opcao;
+		
+		System.out.println("#####################");
+		System.out.println("# 1 - Soma          #");
+		System.out.println("# 2 - Subtração     #");
+		System.out.println("# 3 - Divisão       #");
+		System.out.println("# 4 - Multiplicação #");
+		System.out.println("# 5 - Sair          #");
+		System.out.println("#####################");
+		
+		opcao = sc.nextInt();
+		
+		switch (opcao) {
+			case 0:
+				break;
+			case 1:
+				break;
+			case 2:
+				break;
+			case 3:
+				break;
+			case 4:
+				break;
+			case 5:
+				break;
+			default:
+				break;
+		}
+		
+	}
+
+}
